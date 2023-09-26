@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.html",
   "scripts": {
-    "dev": "CI='' vite",
-    "build": "vite build",
+    "dev": "vite",
+    "build": "CI='' vite build",
     "preview": "vite preview",
     "format": "prettier --write \"src/**/*(js,jsx)\"",
     "lint": "eslint \"src/**/*(js,jsx)\" --quiet",
